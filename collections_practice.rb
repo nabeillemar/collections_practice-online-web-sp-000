@@ -50,7 +50,7 @@ def add_s(array)
   unless index == 1
     element + "s"
   else index == 1
-    "feet"
+    element
   end
   end
 end
