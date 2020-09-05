@@ -31,7 +31,7 @@ def kesha_maker(array)
   array.each{|x| new_array << 
 end
 
-
+=begin
 def find_a(array)
   array.select do |word|
     word.first == "a"
@@ -45,4 +45,4 @@ end
 
 def add_s(array)
 end
-
+=end
