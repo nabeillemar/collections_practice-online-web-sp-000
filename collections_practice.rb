@@ -45,5 +45,13 @@ def sum_array(array)
   array.inject(:+)
 end
 
-
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+  unless index == 1
+    element + "s"
+  else index == 1
+    "feet"
+  end
+  end
+end
  
