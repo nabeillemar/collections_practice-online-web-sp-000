@@ -33,12 +33,12 @@ def kesha_maker(array)
   end
   end
 
-=begin
+
 def find_a(array)
   array.select do |word|
     word.first == "a"
   end
-end
+
 
 
 def sum_array(array)
